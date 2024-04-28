@@ -6,8 +6,10 @@ eureka:
 
 microservice:
   stock-service:
-    endpoint:
-      uri: http://localhost:8091/api/v1/stock
+    endpoints:
+      endpoint:
+        uri: http://localhost:8091/api/v1/stock
   product-service:
-    endpoint:
-      uri: http://localhost:8090/api/v1/produit
+    endpoints:
+      endpoint:
+        uri: http://localhost:8090/api/v1/produit
